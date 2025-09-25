@@ -2,7 +2,7 @@ pipeline {
     agent any
         environment {
         //once you sign up for Docker hub, use that user_id here
-        registry = "ananthkannan/mypython-app-may20"
+        registry = "256716302402.dkr.ecr.us-east-1.amazonaws.com/jenkins"
         //- update your credentials ID after creating credentials for connecting to Docker Hub
         registryCredential = 'dockerhub'
         dockerImage = ''
